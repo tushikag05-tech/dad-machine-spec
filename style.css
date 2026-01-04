@@ -166,5 +166,14 @@ footer {
         transform: translateY(100vh) rotate(360deg); 
     } 
 }
-                              
+
+.birthday-photo { 
+    max-width: 300px; 
+    width: 100%;
+    border-radius: 12px; 
+    margin: 30px auto; 
+    display: block;
+    box-shadow: 0 10px 25px rgba(10, 61, 98, 0.25);
+}
+
 
