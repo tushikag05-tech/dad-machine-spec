@@ -20,6 +20,8 @@ body {
     padding: 40px; 
     border-radius: 8px; 
     box-shadow: 0 10px 25px rgba(10, 61, 98, 0.15); 
+    position: relative; 
+    z-index: 1; 
 }
 
 h1 { 
@@ -128,6 +130,7 @@ footer {
     height: 100%; 
     pointer-events: none; 
     overflow: hidden; 
+    z-index: 9999; 
 } 
 
 .confetti span { 
