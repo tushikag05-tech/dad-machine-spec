@@ -136,7 +136,7 @@ footer {
     width: 10px; 
     height: 14px; 
     background-color: var(--accent-blue); 
-    opactiy: 0.8; 
+    opacity: 0.8; 
     animation: fall 3s linear infinite; 
 } 
 
@@ -144,23 +144,23 @@ footer {
     background-color: var(--primary-blue);
 }
 
-.confetti span:nth-child(1) { left: 10%; animation-delat:0s; ] 
-.confetti span:nth-child(2) { left: 20%; animation-delat:0.5s; ] 
-.confetti span:nth-child(2) { left: 30%; animation-delat:1s; ] 
-.confetti span:nth-child(4) { left: 40%; animation-delat:0.2s; ] 
-.confetti span:nth-child(5) { left: 50%; animation-delat:0.7s; ] 
-.confetti span:nth-child(6) { left: 60%; animation-delat:1.2s; ] 
-.confetti span:nth-child(7) { left: 70%; animation-delat:0.4s; ] 
-.confetti span:nth-child(8) { left: 80%; animation-delat:0.9s; ] 
-.confetti span:nth-child(9) { left: 90%; animation-delat:1.4s; ] 
-.confetti span:nth-child(10) { left: 100%; animation-delat:0.6s; ] 
+.confetti span:nth-child(1) { left: 10%; animation-delay:0s; } 
+.confetti span:nth-child(2) { left: 20%; animation-delay:0.5s; } 
+.confetti span:nth-child(3) { left: 30%; animation-delay:1s; } 
+.confetti span:nth-child(4) { left: 40%; animation-delay:0.2s; } 
+.confetti span:nth-child(5) { left: 50%; animation-delay:0.7s; } 
+.confetti span:nth-child(6) { left: 60%; animation-delay:1.2s; } 
+.confetti span:nth-child(7) { left: 70%; animation-delay:0.4s; } 
+.confetti span:nth-child(8) { left: 80%; animation-delay:0.9s; } 
+.confetti span:nth-child(9) { left: 90%; animation-delay:1.4s; } 
+.confetti span:nth-child(10) { left: 100%; animation-delay:0.6s; } 
 
 @keyframes fall { 
     from { 
         transform: translateY(0) rotate(0deg);
     }
     to { 
-        transform: translateY(100vh) rotate (360deg); 
+        transform: translateY(100vh) rotate(360deg); 
     } 
 }
                               
