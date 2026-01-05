@@ -168,8 +168,9 @@ footer {
 }
 
 .birthday-photo { 
-    max-width: 50px; 
+    max-width: 250px; 
     width: 100%;
+    height: auto;
     border-radius: 12px; 
     margin: 30px auto; 
     display: block;
